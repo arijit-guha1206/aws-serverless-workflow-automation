@@ -1,4 +1,3 @@
-
 import json
 from pathlib import Path
 
@@ -12,15 +11,12 @@ def main():
     input_file = data_dir / "employees.json"
     output_file = data_dir / "department_summary.json"
 
-    # Load employee records
     with input_file.open("r", encoding="utf-8") as file:
         employees = json.load(file)
 
-    # Validate and process the records
     validate_employees(employees)
     summary = summarize_by_department(employees)
 
-    # Save the processed results
     with output_file.open("w", encoding="utf-8") as file:
         json.dump(summary, file, indent=4)
 
