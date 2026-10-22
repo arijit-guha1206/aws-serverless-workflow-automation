@@ -1,0 +1,12 @@
+[
+    {
+        "department": "Engineering",
+        "employee_count": 2,
+        "average_salary": 62500.0
+    },
+    {
+        "department": "Analytics",
+        "employee_count": 1,
+        "average_salary": 55000.0
+    }
+]
