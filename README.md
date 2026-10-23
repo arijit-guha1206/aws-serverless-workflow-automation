@@ -108,3 +108,6 @@ The local demo uses fictional sample employee data. AWS integrations, credential
 - Department-level data aggregation
 - Unit testing
 - Continuous integration with GitHub Actions
+
+
+**Architecture diagram:** [View the workflow diagram](docs/architecture.md)
