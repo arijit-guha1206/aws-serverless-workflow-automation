@@ -1,4 +1,5 @@
 # AWS Serverless Workflow Automation & Data Processing
+![Python Tests](https://github.com/arijit-guha1206/aws-serverless-workflow-automation/actions/workflows/python-tests.yml/badge.svg)
 
 A team project exploring serverless employee-data processing using AWS services, complemented by a runnable local Python demonstration and automated tests.
 
